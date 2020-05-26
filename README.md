@@ -7,6 +7,7 @@ User management application prerequisites and setup:
 * Rails version - 6.0.3.1
 * Node.js - v12.16.3
 * Yarn - v1.22.4
+* Database - SQLite v3
 * Database creation - `rails db:migrate`
 * Run - `rails server`
 
