@@ -21,6 +21,10 @@ Used commands during development:
 * `rails server`
 * `rails generate migration migration_name column_name:column_type`
 * `rails g controller ControllerName view_name`
-
+* `rails g mailer example_mailer`
+* `rails g job send_email`
+* Email preview is on `http://localhost:3000/rails/mailers/user_mailer/user_deleted_mail_preview.html`
+* `rails generate delayed_job:active_record`
+* Run background job worker `bundle exec rake jobs:work`
 
 

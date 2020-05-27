@@ -51,3 +51,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Auth framework
 gem 'devise'
+
+# Background job provider
+gem 'delayed_job_active_record'
